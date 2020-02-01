@@ -1,0 +1,54 @@
+body{
+	text-align:center;
+	background: url(Repocitory/blue.jpg);
+  	background-repeat: no-repeat;
+	background-size:100% 129%;
+	}
+input{	
+	color:blue;
+	margin:5px;
+	}
+      
+.myButton{
+	box-shadow:inset 0px 1px 0px 0px #00b3ff;
+	background:linear-gradient(to bottom, #70cceb 5%, #019ad2 100%);
+	background-color:#70cceb;
+	border-radius:5px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 19px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #70cceb 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.css-input { 
+	padding:5px; 
+	font-size:16px; 
+	text-align:left; 
+	border-width:5px; 
+	border-radius:5px; 
+	border-style:solid; 
+	background-color:#0000; 
+	border-color:#0000; 
+	box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+	text-shadow:0px 0px 0px rgba(42,42,42,.75); 
+	font-weight:bold;
+	font-style:none; 
+	font-family:monospace;  
+} 
+		 
+.css-input:focus { 
+outline:none; } 
+        
