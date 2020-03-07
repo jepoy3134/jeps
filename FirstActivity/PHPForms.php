@@ -1,38 +1,5 @@
 <?php
-
-if(isset($_POST['Username'])|| isset($_POST['password'])){
-    $name = $_POST['Username'];
-echo $name;
-echo '<br>';
-$password = $_POST['password'];
-echo $password;
-echo '<br>';
-
-    if($password == "asd" && $name == "asd" ){
-        header("LOCATION:jeps/FirstActivity/forms.php");
-    
-        }else{
-       ?><script>
-                alert("NGI! Mali password nya hahahah");
-            </script>
-     <?php 
-  }
-
-}
-
-
-
-
-
-/*echo $_SERVER['PHP_SELF'];
-echo '<br>';
-echo $_SERVER['SERVER_NAME'];
-echo '<br>';
-echo $_SERVER['HTTP_HOST'];
-echo '<br>';
-echo $_SERVER['SCRIPT_NAME'];
-echo '<br>';*/
-
+include("include/loginValidation.php");
 ?>
 
 <!DOCTYPE html>
